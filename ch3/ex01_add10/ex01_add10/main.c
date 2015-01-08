@@ -9,12 +9,17 @@
 #include <stdio.h>
 #define TURE 1
 int main(int argc, const char * argv[]) {
-    int value, total;
+    int index, value, total;
     
     printf("This program adds a list of numbers.\n");
     printf("Signal end of list with a 0.\n");
+    printf("or input how many numbers need add (press 0 to skip): ");
+    scanf("%d", &index);
+    
+    index = (index == 0) ? TURE : index;
+    
     total = 0;
-    while (TURE) {
+    while (index--) {
         printf(" ? ");
         scanf("%d", &value);
         if (value == 0) break;
