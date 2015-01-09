@@ -14,7 +14,6 @@ int main(int argc, const char * argv[]) {
     do {
         printf("%2d\n", t);
     } while (t--);
-        
     
     printf("Liftoff!\n");
     
