@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBB3500A1A60BB11004D0176 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB350091A60BB11004D0176 /* main.c */; };
+		DBB350121A60BE03004D0176 /* GiveInstructions.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB350111A60BE03004D0176 /* GiveInstructions.c */; };
+		DBB350141A60BEA6004D0176 /* GetYearFromUser.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB350131A60BEA6004D0176 /* GetYearFromUser.c */; };
+		DBB350161A60BF3F004D0176 /* PrintCalendar.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB350151A60BF3F004D0176 /* PrintCalendar.c */; };
+		DBB350181A60C01D004D0176 /* PrintCalendarMonth.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB350171A60C01D004D0176 /* PrintCalendarMonth.c */; };
+		DBB3501A1A60C2E3004D0176 /* IndentFirstLine.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB350191A60C2E3004D0176 /* IndentFirstLine.c */; };
+		DBB3501C1A60C378004D0176 /* MonthDays.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB3501B1A60C378004D0176 /* MonthDays.c */; };
+		DBB3501E1A60C422004D0176 /* FirstDayOfMonth.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB3501D1A60C422004D0176 /* FirstDayOfMonth.c */; };
+		DBB350201A60C5B3004D0176 /* MonthName.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB3501F1A60C5B3004D0176 /* MonthName.c */; };
+		DBB350221A60C6BD004D0176 /* IsLeapYear.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB350211A60C6BD004D0176 /* IsLeapYear.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBB350041A60BB11004D0176 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBB350061A60BB11004D0176 /* 5.6.4_calendar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 5.6.4_calendar; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB350091A60BB11004D0176 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DBB350101A60BB84004D0176 /* calendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calendar.h; sourceTree = "<group>"; };
+		DBB350111A60BE03004D0176 /* GiveInstructions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GiveInstructions.c; sourceTree = "<group>"; };
+		DBB350131A60BEA6004D0176 /* GetYearFromUser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GetYearFromUser.c; sourceTree = "<group>"; };
+		DBB350151A60BF3F004D0176 /* PrintCalendar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrintCalendar.c; sourceTree = "<group>"; };
+		DBB350171A60C01D004D0176 /* PrintCalendarMonth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrintCalendarMonth.c; sourceTree = "<group>"; };
+		DBB350191A60C2E3004D0176 /* IndentFirstLine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IndentFirstLine.c; sourceTree = "<group>"; };
+		DBB3501B1A60C378004D0176 /* MonthDays.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MonthDays.c; sourceTree = "<group>"; };
+		DBB3501D1A60C422004D0176 /* FirstDayOfMonth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FirstDayOfMonth.c; sourceTree = "<group>"; };
+		DBB3501F1A60C5B3004D0176 /* MonthName.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MonthName.c; sourceTree = "<group>"; };
+		DBB350211A60C6BD004D0176 /* IsLeapYear.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IsLeapYear.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB350031A60BB11004D0176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBB34FFD1A60BB11004D0176 = {
+			isa = PBXGroup;
+			children = (
+				DBB350081A60BB11004D0176 /* 5.6.4_calendar */,
+				DBB350071A60BB11004D0176 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB350071A60BB11004D0176 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB350061A60BB11004D0176 /* 5.6.4_calendar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB350081A60BB11004D0176 /* 5.6.4_calendar */ = {
+			isa = PBXGroup;
+			children = (
+				DBB350091A60BB11004D0176 /* main.c */,
+				DBB350101A60BB84004D0176 /* calendar.h */,
+				DBB350111A60BE03004D0176 /* GiveInstructions.c */,
+				DBB350131A60BEA6004D0176 /* GetYearFromUser.c */,
+				DBB350151A60BF3F004D0176 /* PrintCalendar.c */,
+				DBB350171A60C01D004D0176 /* PrintCalendarMonth.c */,
+				DBB350191A60C2E3004D0176 /* IndentFirstLine.c */,
+				DBB3501B1A60C378004D0176 /* MonthDays.c */,
+				DBB3501D1A60C422004D0176 /* FirstDayOfMonth.c */,
+				DBB3501F1A60C5B3004D0176 /* MonthName.c */,
+				DBB350211A60C6BD004D0176 /* IsLeapYear.c */,
+			);
+			path = 5.6.4_calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB350051A60BB11004D0176 /* 5.6.4_calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB3500D1A60BB11004D0176 /* Build configuration list for PBXNativeTarget "5.6.4_calendar" */;
+			buildPhases = (
+				DBB350021A60BB11004D0176 /* Sources */,
+				DBB350031A60BB11004D0176 /* Frameworks */,
+				DBB350041A60BB11004D0176 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 5.6.4_calendar;
+			productName = 5.6.4_calendar;
+			productReference = DBB350061A60BB11004D0176 /* 5.6.4_calendar */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB34FFE1A60BB11004D0176 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cirno MainasuK";
+				TargetAttributes = {
+					DBB350051A60BB11004D0176 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DBB350011A60BB11004D0176 /* Build configuration list for PBXProject "5.6.4_calendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBB34FFD1A60BB11004D0176;
+			productRefGroup = DBB350071A60BB11004D0176 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB350051A60BB11004D0176 /* 5.6.4_calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB350021A60BB11004D0176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB3501A1A60C2E3004D0176 /* IndentFirstLine.c in Sources */,
+				DBB3500A1A60BB11004D0176 /* main.c in Sources */,
+				DBB350221A60C6BD004D0176 /* IsLeapYear.c in Sources */,
+				DBB350181A60C01D004D0176 /* PrintCalendarMonth.c in Sources */,
+				DBB3501E1A60C422004D0176 /* FirstDayOfMonth.c in Sources */,
+				DBB350141A60BEA6004D0176 /* GetYearFromUser.c in Sources */,
+				DBB350121A60BE03004D0176 /* GiveInstructions.c in Sources */,
+				DBB3501C1A60C378004D0176 /* MonthDays.c in Sources */,
+				DBB350161A60BF3F004D0176 /* PrintCalendar.c in Sources */,
+				DBB350201A60C5B3004D0176 /* MonthName.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DBB3500B1A60BB11004D0176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBB3500C1A60BB11004D0176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBB3500E1A60BB11004D0176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBB3500F1A60BB11004D0176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB350011A60BB11004D0176 /* Build configuration list for PBXProject "5.6.4_calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB3500B1A60BB11004D0176 /* Debug */,
+				DBB3500C1A60BB11004D0176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB3500D1A60BB11004D0176 /* Build configuration list for PBXNativeTarget "5.6.4_calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB3500E1A60BB11004D0176 /* Debug */,
+				DBB3500F1A60BB11004D0176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB34FFE1A60BB11004D0176 /* Project object */;
+}
