@@ -7,6 +7,9 @@
 //
 
 #include <stdio.h>
+#include <math.h>
+#define TRUE  1
+#define FALSE 0
 
 long isPrime(long n);
 
@@ -20,12 +23,14 @@ int main(int argc, const char * argv[]) {
 }
 
 long isPrime(long n) {
-    long divisors, i;
+    long i, limit;
     
-    divisors = 0;
-    for (i = 1; i <= n; i++) {
-        if (n % i == 0)
-            divisors++;
+    if (n <= 1) return (FALSE);
+    if (n == 2) return (TRUE);
+    if (n % 2 == 0) return (FALSE);
+    limit = sqrt(n) + 1;
+    for (i = 3; i <= limit; i += 2) {
+        if (n % i == 0) return (FALSE);
     }
-    return (divisors == 2);
+    return (TRUE);
 }
