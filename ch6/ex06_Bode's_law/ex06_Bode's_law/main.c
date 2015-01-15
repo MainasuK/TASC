@@ -5,6 +5,8 @@
 //  Created by Cirno MainasuK on 2015-1-15.
 //  Copyright (c) 2015年 Cirno MainasuK. All rights reserved.
 //
+//  This program prints the distance of the Sun to the planets
+//  The ? represent Asteroid belt
 
 #include <stdio.h>
 #include "theLawOfBode.h"
