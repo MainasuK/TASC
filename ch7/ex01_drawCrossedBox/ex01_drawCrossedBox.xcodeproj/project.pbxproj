@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBB77CB31A6A902700A86DF7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB77CB21A6A902700A86DF7 /* main.c */; };
+		DBB77CBA1A6A904900A86DF7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB77CB91A6A904900A86DF7 /* GLUT.framework */; };
+		DBB77CBC1A6A905400A86DF7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB77CBB1A6A905400A86DF7 /* OpenGL.framework */; };
+		DBB77CC41A6A907600A86DF7 /* DrawTools.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB77CC21A6A907600A86DF7 /* DrawTools.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBB77CAD1A6A902700A86DF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBB77CAF1A6A902700A86DF7 /* ex01_drawCrossedBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex01_drawCrossedBox; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB77CB21A6A902700A86DF7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DBB77CB91A6A904900A86DF7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		DBB77CBB1A6A905400A86DF7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		DBB77CC21A6A907600A86DF7 /* DrawTools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DrawTools.c; sourceTree = "<group>"; };
+		DBB77CC31A6A907600A86DF7 /* DrawTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawTools.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB77CAC1A6A902700A86DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB77CBC1A6A905400A86DF7 /* OpenGL.framework in Frameworks */,
+				DBB77CBA1A6A904900A86DF7 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBB77CA61A6A902700A86DF7 = {
+			isa = PBXGroup;
+			children = (
+				DBB77CC11A6A907600A86DF7 /* DrawTools */,
+				DBB77CBB1A6A905400A86DF7 /* OpenGL.framework */,
+				DBB77CB91A6A904900A86DF7 /* GLUT.framework */,
+				DBB77CB11A6A902700A86DF7 /* ex01_drawCrossedBox */,
+				DBB77CB01A6A902700A86DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB77CB01A6A902700A86DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB77CAF1A6A902700A86DF7 /* ex01_drawCrossedBox */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB77CB11A6A902700A86DF7 /* ex01_drawCrossedBox */ = {
+			isa = PBXGroup;
+			children = (
+				DBB77CB21A6A902700A86DF7 /* main.c */,
+			);
+			path = ex01_drawCrossedBox;
+			sourceTree = "<group>";
+		};
+		DBB77CC11A6A907600A86DF7 /* DrawTools */ = {
+			isa = PBXGroup;
+			children = (
+				DBB77CC21A6A907600A86DF7 /* DrawTools.c */,
+				DBB77CC31A6A907600A86DF7 /* DrawTools.h */,
+			);
+			path = DrawTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB77CAE1A6A902700A86DF7 /* ex01_drawCrossedBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB77CB61A6A902700A86DF7 /* Build configuration list for PBXNativeTarget "ex01_drawCrossedBox" */;
+			buildPhases = (
+				DBB77CAB1A6A902700A86DF7 /* Sources */,
+				DBB77CAC1A6A902700A86DF7 /* Frameworks */,
+				DBB77CAD1A6A902700A86DF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex01_drawCrossedBox;
+			productName = ex01_drawCrossedBox;
+			productReference = DBB77CAF1A6A902700A86DF7 /* ex01_drawCrossedBox */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB77CA71A6A902700A86DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cirno MainasuK";
+				TargetAttributes = {
+					DBB77CAE1A6A902700A86DF7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DBB77CAA1A6A902700A86DF7 /* Build configuration list for PBXProject "ex01_drawCrossedBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBB77CA61A6A902700A86DF7;
+			productRefGroup = DBB77CB01A6A902700A86DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB77CAE1A6A902700A86DF7 /* ex01_drawCrossedBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB77CAB1A6A902700A86DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB77CB31A6A902700A86DF7 /* main.c in Sources */,
+				DBB77CC41A6A907600A86DF7 /* DrawTools.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DBB77CB41A6A902700A86DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBB77CB51A6A902700A86DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBB77CB71A6A902700A86DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBB77CB81A6A902700A86DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB77CAA1A6A902700A86DF7 /* Build configuration list for PBXProject "ex01_drawCrossedBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB77CB41A6A902700A86DF7 /* Debug */,
+				DBB77CB51A6A902700A86DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB77CB61A6A902700A86DF7 /* Build configuration list for PBXNativeTarget "ex01_drawCrossedBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB77CB71A6A902700A86DF7 /* Debug */,
+				DBB77CB81A6A902700A86DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB77CA71A6A902700A86DF7 /* Project object */;
+}
