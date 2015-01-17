@@ -5,46 +5,32 @@
 //  Created by Cirno MainasuK on 2015-1-16.
 //  Copyright (c) 2015年 Cirno MainasuK. All rights reserved.
 //
+//  This program draw a line in a window
+#include <GLUT/GLUT.h>
 
-#include <GLUT/glut.h>
-
-void init2D(float r, float g, float b)
-{
-    glClearColor(r,g,b,0.0);
-    glMatrixMode (GL_PROJECTION);
-    gluOrtho2D (0.0, 200.0, 0.0, 150.0);
-}
-
-void display(void)
-{
-    glClear(GL_COLOR_BUFFER_BIT);
-    glColor3f(1.0, 0.0, 0.0);
-    
-    //draw two points
-    glBegin(GL_POINTS);
-    for(int i = 0; i < 10; i++)
+void myDisplay(void) {
+    glClear(GL_COLOR_BUFFER_BIT);   //  clear buffer
+    glColor3f(1.0, 1.0, 1.0);       //  set draw color
+    glLineWidth(1.0);               //  set line width
+    glBegin(GL_LINES);              //  draw start
     {
-        glVertex2i(10+5*i,110);
+        glVertex2f(0.0, 0.0);
+        glVertex2f(0.0, 1.0);
     }
-    glEnd();
+    glEnd();                        //  draw end
     
-    //draw a line
-    glBegin(GL_LINES);
-    glVertex2i(10,10);
-    glVertex2i(100,100);
-    glEnd();
-    
-    glFlush();
+    glFlush();                      //  force run the code above
 }
 
-void main(int argc,char *argv[])
+
+int main(int argc, char *argv[])
 {
-    glutInit(&argc,argv);
-    glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize (500, 500);
-    glutInitWindowPosition (100, 100);
-    glutCreateWindow ("points and lines");
-    init2D(0.0,0.0,0.0);
-    glutDisplayFunc(display);
-    glutMainLoop();
+    glutInit(&argc, argv);          //  init GULT
+    glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);    //  set display mode
+    glutInitWindowPosition(100, 100);               //  set window position
+    glutInitWindowSize(400, 400);                   //  set window size
+    glutCreateWindow("oneline");    //  set window name
+    glutDisplayFunc(&myDisplay);                    //  run function to  draw
+    glutMainLoop();                                 //  display window on the screen
+    return 0;
 }

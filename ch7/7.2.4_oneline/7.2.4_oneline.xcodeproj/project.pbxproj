@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB9E1C241A69245900B194C1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB9E1C231A69245900B194C1 /* main.c */; };
 		DBB77C341A6A2A9900A86DF7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB77C331A6A2A9900A86DF7 /* GLUT.framework */; };
-		DBB77C361A6A2AB000A86DF7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB77C351A6A2AB000A86DF7 /* OpenGL.framework */; };
+		DBB77C511A6A3A0800A86DF7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB77C501A6A3A0800A86DF7 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 		DB9E1C201A69245900B194C1 /* 7.2.4_oneline */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 7.2.4_oneline; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9E1C231A69245900B194C1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DBB77C331A6A2A9900A86DF7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		DBB77C351A6A2AB000A86DF7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		DBB77C501A6A3A0800A86DF7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBB77C361A6A2AB000A86DF7 /* OpenGL.framework in Frameworks */,
+				DBB77C511A6A3A0800A86DF7 /* OpenGL.framework in Frameworks */,
 				DBB77C341A6A2A9900A86DF7 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,7 +47,7 @@
 		DB9E1C171A69245900B194C1 = {
 			isa = PBXGroup;
 			children = (
-				DBB77C351A6A2AB000A86DF7 /* OpenGL.framework */,
+				DBB77C501A6A3A0800A86DF7 /* OpenGL.framework */,
 				DBB77C331A6A2A9900A86DF7 /* GLUT.framework */,
 				DB9E1C221A69245900B194C1 /* 7.2.4_oneline */,
 				DB9E1C211A69245900B194C1 /* Products */,
