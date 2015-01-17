@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     glutInit(&argc, argv);          //  init GULT
     glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);    //  set display mode
     glutInitWindowPosition(100, 100);               //  set window position
-    glutInitWindowSize(500, 500);                   //  set window size
+    glutInitWindowSize(5-00, 500);                   //  set window size
     glutCreateWindow("Heart");                     //  set window name
 //    glScalef(0.4, 0.4, 0.4);
     glutDisplayFunc(&myDisplay);                    //  run function to  draw
