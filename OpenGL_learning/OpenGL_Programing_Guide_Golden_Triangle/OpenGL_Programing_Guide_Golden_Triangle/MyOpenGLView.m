@@ -5,6 +5,8 @@
 //  Created by Cirno MainasuK on 2015-1-17.
 //  Copyright (c) 2015年 Cirno MainasuK. All rights reserved.
 //
+//  This program from the library "OpenGL programming guide for Mac"
+//  You cna get it from https://developer.apple.com/library/mac/documentation/GraphicsImaging/Conceptual/OpenGL-MacProgGuide/opengl_drawing/opengl_drawing.html#//apple_ref/doc/uid/TP40001987-CH404-SW8
 
 #import "MyOpenGLView.h"
 #include <OpenGL/gl.h>
