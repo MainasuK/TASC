@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		DBB77C921A6A50F900A86DF7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB77C911A6A50F900A86DF7 /* main.c */; };
 		DBB77C9A1A6A53D300A86DF7 /* house.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB77C981A6A53D300A86DF7 /* house.c */; };
+		DBB77CA01A6A619A00A86DF7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB77C9F1A6A619A00A86DF7 /* OpenGL.framework */; };
+		DBB77CA21A6A61A900A86DF7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB77CA11A6A61A900A86DF7 /* GLUT.framework */; };
+		DBB77CA51A6A63BB00A86DF7 /* DrawTools.c in Sources */ = {isa = PBXBuildFile; fileRef = DBB77CA31A6A63BB00A86DF7 /* DrawTools.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,10 @@
 		DBB77C911A6A50F900A86DF7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DBB77C981A6A53D300A86DF7 /* house.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = house.c; sourceTree = "<group>"; };
 		DBB77C991A6A53D300A86DF7 /* house.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = house.h; sourceTree = "<group>"; };
+		DBB77C9F1A6A619A00A86DF7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		DBB77CA11A6A61A900A86DF7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		DBB77CA31A6A63BB00A86DF7 /* DrawTools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DrawTools.c; sourceTree = "<group>"; };
+		DBB77CA41A6A63BB00A86DF7 /* DrawTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB77CA21A6A61A900A86DF7 /* GLUT.framework in Frameworks */,
+				DBB77CA01A6A619A00A86DF7 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,8 @@
 		DBB77C851A6A50F800A86DF7 = {
 			isa = PBXGroup;
 			children = (
+				DBB77CA11A6A61A900A86DF7 /* GLUT.framework */,
+				DBB77C9F1A6A619A00A86DF7 /* OpenGL.framework */,
 				DBB77C901A6A50F900A86DF7 /* 7.4_drawHouse */,
 				DBB77C8F1A6A50F900A86DF7 /* Products */,
 			);
@@ -62,6 +73,8 @@
 			children = (
 				DBB77C911A6A50F900A86DF7 /* main.c */,
 				DBB77C981A6A53D300A86DF7 /* house.c */,
+				DBB77CA31A6A63BB00A86DF7 /* DrawTools.c */,
+				DBB77CA41A6A63BB00A86DF7 /* DrawTools.h */,
 				DBB77C991A6A53D300A86DF7 /* house.h */,
 			);
 			path = 7.4_drawHouse;
@@ -124,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBB77C9A1A6A53D300A86DF7 /* house.c in Sources */,
+				DBB77CA51A6A63BB00A86DF7 /* DrawTools.c in Sources */,
 				DBB77C921A6A50F900A86DF7 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

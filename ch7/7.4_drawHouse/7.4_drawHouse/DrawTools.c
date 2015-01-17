@@ -60,8 +60,11 @@ void drawCenteredCircle(GLdouble x, GLdouble y, GLdouble r) {
 
 void drawTriangle(GLdouble x, GLdouble y, GLdouble base, GLdouble height) {
     drawLine(x, y, x+base, y);
-    drawLine(x, y, (x+base)/2.0, height);
-    drawLine((x+base)/2.0, y+height, x+base, y);
+    drawLine(x, y, x+ base*0.5, height+y);
+    drawLine(x + base*0.5, y+height, x+base, y);
+
+    glEnd();                        //  draw end
+    glFlush();                      //  force run the code above
 }
 
 void drawGrid(GLdouble x, GLdouble y, GLdouble width, GLdouble height, GLint columns, GLint rows) {

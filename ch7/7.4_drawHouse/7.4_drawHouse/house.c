@@ -22,11 +22,39 @@ void drawHouse(GLdouble x, GLdouble y) {
 
 void drawOutline(GLdouble x, GLdouble y) {
     drawBox(x, y, HouseWidth, HouseHeight);
-    DrawTriangle(x, y + HouseHeight, HouseWidth, AtticHeight);
+    drawTriangle(x, y + HouseHeight, HouseWidth, AtticHeight);
 }
 
 
+void drawWindows(GLdouble x, GLdouble y) {
+    double xleft, xright;
+    
+    xleft = x + HouseWidth * 0.25;
+    xright = x + HouseWidth * 0.75;
+    drawGrid(xleft - PaneWidth * 1.5, y + FirstFloorWindows,
+             PaneWidth, PaneHeight, 3, 2);
+    drawGrid(xright - PaneWidth * 1.5, y + FirstFloorWindows,
+             PaneWidth, PaneHeight, 3, 2);
+    drawGrid(xleft - PaneWidth, y + SecondFloorWindows,
+             PaneWidth, PaneHeight, 2, 2);
+    drawGrid(xright - PaneWidth, y + SecondFloorWindows,
+             PaneWidth, PaneHeight, 2, 2);
+}
 
 
+/*
+ * Function: DrawDoor
+ * Usage: DrawDoor(x, y);
+ * ----------------------
+ * This function draws a door, with its doorknob.  As usual,
+ * (x, y) specifies the lower left corner of the door.
+ */
+
+void drawDoor(double x, double y)
+{
+    drawBox(x, y, DoorWidth, DoorHeight);
+    drawCenteredCircle(x + DoorWidth - DoorKnobInset,
+                       y + DoorHeight / 2, DoorKnobRadius);
+}
 
 
