@@ -1,25 +1,27 @@
 //
 //  main.c
-//  7.2.4_oneline
+//  7.4_drawHouse
 //
-//  Created by Cirno MainasuK on 2015-1-16.
+//  Created by Cirno MainasuK on 2015-1-17.
 //  Copyright (c) 2015年 Cirno MainasuK. All rights reserved.
 //
-//  This program draw a line in a window
-#include <GLUT/GLUT.h>
+
+
 
 void myDisplay(void) {
+    int i;
     glClear(GL_COLOR_BUFFER_BIT);   //  clear buffer
-    glColor3f(1.0, 1.0, 1.0);       //  set draw color
-    glLineWidth(1.0);               //  set line width
-    glBegin(GL_LINES);              //  draw start
+    glBegin(GL_POLYGON);              //  draw start
     {
-        glVertex2f(0.0, 0.0);
-        glVertex2f(0.0, 1.8);
+        for (i = 0; i < N; i++) {
+            glVertex2f(R*cos(2*PI/N*i), R*sin(2*PI/N*i));
+        }
+        
     }
     glEnd();                        //  draw end
     
-    glFlush();                      //  force run the code above
+    glFlush();
+    //  force run the code above
 }
 
 
