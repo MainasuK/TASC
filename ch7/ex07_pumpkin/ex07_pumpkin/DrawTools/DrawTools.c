@@ -58,13 +58,11 @@ void drawCenteredCircle(GLdouble x, GLdouble y, GLdouble r) {
     drawArc(x, y, r, 0, 360);
 }
 
-
 void drawTriangle(GLdouble x, GLdouble y, GLdouble base, GLdouble height) {
     drawLine(x, y, x+base, y);
     drawLine(x, y, x+(base/2.0), y + height);
     drawLine(x+(base/2.0), y+height, x+base, y);
 }
-
 
 void drawGrid(GLdouble x, GLdouble y, GLdouble width, GLdouble height, GLint columns, GLint rows) {
     int i, j;
