@@ -30,7 +30,7 @@ void drawNose(GLdouble x, GLdouble y) {
 }
 
 void drawEyes(GLdouble x, GLdouble y) {
-    drawTriangle(x-HeadRadius*0.3, y+HeadRadius*0.3, EyeWidth, -EyeHeight);
+    drawTriangle(x-HeadRadius*0.3-EyeWidth, y+HeadRadius*0.3, EyeWidth, -EyeHeight);
     drawTriangle(x+HeadRadius*0.3, y+HeadRadius*0.3, EyeWidth, -EyeHeight);
 }
 
