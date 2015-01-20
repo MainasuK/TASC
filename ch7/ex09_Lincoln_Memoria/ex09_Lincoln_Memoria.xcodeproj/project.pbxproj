@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1D455D1A6EA09A00018159 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB1D455C1A6EA09A00018159 /* main.c */; };
+		DB1D45651A6EA0B700018159 /* DrawTools.c in Sources */ = {isa = PBXBuildFile; fileRef = DB1D45641A6EA0B700018159 /* DrawTools.c */; };
+		DB1D45681A6EA0E600018159 /* drawMemoria.c in Sources */ = {isa = PBXBuildFile; fileRef = DB1D45661A6EA0E600018159 /* drawMemoria.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB1D45571A6EA09A00018159 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB1D45591A6EA09A00018159 /* ex09_Lincoln_Memoria */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex09_Lincoln_Memoria; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1D455C1A6EA09A00018159 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DB1D45631A6EA0AA00018159 /* DrawTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawTools.h; sourceTree = "<group>"; };
+		DB1D45641A6EA0B700018159 /* DrawTools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DrawTools.c; sourceTree = "<group>"; };
+		DB1D45661A6EA0E600018159 /* drawMemoria.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drawMemoria.c; sourceTree = "<group>"; };
+		DB1D45671A6EA0E600018159 /* drawMemoria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawMemoria.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1D45561A6EA09A00018159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1D45501A6EA09A00018159 = {
+			isa = PBXGroup;
+			children = (
+				DB1D455B1A6EA09A00018159 /* ex09_Lincoln_Memoria */,
+				DB1D455A1A6EA09A00018159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1D455A1A6EA09A00018159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D45591A6EA09A00018159 /* ex09_Lincoln_Memoria */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1D455B1A6EA09A00018159 /* ex09_Lincoln_Memoria */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D455C1A6EA09A00018159 /* main.c */,
+				DB1D45661A6EA0E600018159 /* drawMemoria.c */,
+				DB1D45671A6EA0E600018159 /* drawMemoria.h */,
+				DB1D45641A6EA0B700018159 /* DrawTools.c */,
+				DB1D45631A6EA0AA00018159 /* DrawTools.h */,
+			);
+			path = ex09_Lincoln_Memoria;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1D45581A6EA09A00018159 /* ex09_Lincoln_Memoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1D45601A6EA09A00018159 /* Build configuration list for PBXNativeTarget "ex09_Lincoln_Memoria" */;
+			buildPhases = (
+				DB1D45551A6EA09A00018159 /* Sources */,
+				DB1D45561A6EA09A00018159 /* Frameworks */,
+				DB1D45571A6EA09A00018159 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex09_Lincoln_Memoria;
+			productName = ex09_Lincoln_Memoria;
+			productReference = DB1D45591A6EA09A00018159 /* ex09_Lincoln_Memoria */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1D45511A6EA09A00018159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cirno MainasuK";
+				TargetAttributes = {
+					DB1D45581A6EA09A00018159 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DB1D45541A6EA09A00018159 /* Build configuration list for PBXProject "ex09_Lincoln_Memoria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB1D45501A6EA09A00018159;
+			productRefGroup = DB1D455A1A6EA09A00018159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1D45581A6EA09A00018159 /* ex09_Lincoln_Memoria */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1D45551A6EA09A00018159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1D455D1A6EA09A00018159 /* main.c in Sources */,
+				DB1D45681A6EA0E600018159 /* drawMemoria.c in Sources */,
+				DB1D45651A6EA0B700018159 /* DrawTools.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB1D455E1A6EA09A00018159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB1D455F1A6EA09A00018159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB1D45611A6EA09A00018159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB1D45621A6EA09A00018159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1D45541A6EA09A00018159 /* Build configuration list for PBXProject "ex09_Lincoln_Memoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1D455E1A6EA09A00018159 /* Debug */,
+				DB1D455F1A6EA09A00018159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1D45601A6EA09A00018159 /* Build configuration list for PBXNativeTarget "ex09_Lincoln_Memoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1D45611A6EA09A00018159 /* Debug */,
+				DB1D45621A6EA09A00018159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1D45511A6EA09A00018159 /* Project object */;
+}
