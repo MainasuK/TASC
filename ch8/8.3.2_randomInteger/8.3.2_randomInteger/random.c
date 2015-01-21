@@ -1,0 +1,37 @@
+//
+//  random.c
+//  8.3.2_randomInteger
+//
+//  Created by Cirno MainasuK on 2015-1-21.
+//
+//
+
+/*
+ * File: random.c
+ * -----------------------------
+ * This file implements the preliminary random.h interface.
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "random.h"
+
+/*
+ * Functoin: randomInteger
+ * ----------------------------
+ * This function first obtains a random integer in
+ * the range [0..RAND_MAX] by applying four steps:
+ * (1)  Generate a real number between 0 and 1.
+ * (2)  Scale it to the appropriate range size.
+ * (3)  Truncate the value to an integer.
+ * (4)  Translate it to the appropriate starting poing.
+ */
+
+int randomInteger(int low, int high) {
+    int k;
+    double d;
+    
+    d = (double) rand() / ((double) RAND_MAX + 1);
+    k = (int) (d * (high - low + 1));
+    return (low + k);
+}
