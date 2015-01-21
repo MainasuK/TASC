@@ -8,7 +8,9 @@
 //  This program simulates rolling a die.
 
 #include <stdio.h>
+#include <stdlib.h>
 #include "random.h"
+#include <time.h>
 
 //  Constants
 //  ----------------------------
@@ -18,12 +20,13 @@
 
 //  Function prototypes
 int rollDie(void);
+void randomize(void);
 
 //  Main program
 
 int main(int argc, const char * argv[]) {
     int i;
-    
+    randomize();
     for (i = 0; i < NTrials; i++) {
         printf("%d\n", rollDie());
     }
@@ -38,4 +41,8 @@ int main(int argc, const char * argv[]) {
 //  range 1 to 6, representing the roll of a six-sided die.
 int rollDie(void) {
     return (randomInteger(1, 6));
+}
+
+void randomize(void) {
+    srand((unsigned)time(NULL));
 }
