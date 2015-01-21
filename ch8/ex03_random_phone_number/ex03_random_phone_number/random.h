@@ -45,6 +45,4 @@ double randomReal(double low, double high);
 
 int randomChance(double p);
 
-void randomize(void);
-
 #endif /* defined(____3_2_randomInteger__random__) */

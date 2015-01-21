@@ -13,7 +13,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+
 #include "random.h"
 
 /*
@@ -59,10 +59,4 @@ double randomReal(double low, double high) {
 
 int randomChance(double p) {
     return (randomReal(0, 1) < p);
-}
-
-
-
-void randomize(void) {
-    srand((unsigned)time(NULL));
 }
