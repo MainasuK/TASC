@@ -39,7 +39,7 @@ int randomInteger(int low, int high) {
 
 //  Function: randomReal
 //  ---------------------------
-//  This function first obtains a random integer int
+//  This function first obtains a random integer in
 //  the range [0..RAND_MAX] by applying two steps:
 //  (1) Generate a real number between 0 and 1.
 //  (2) Scale it to the appropriiate range size.
@@ -49,4 +49,14 @@ double randomReal(double low, double high) {
     
     d = (double) rand() / ((double) RAND_MAX + 1);
     return (low + d * (high - low));
+}
+
+
+//  Funciton: randomChance
+//  --------------------------
+//  This function return TRUE or FALSE (1 or 0) under
+//  chance p by compare randomReal value with p.
+
+int randomChance(double p) {
+    return (randomReal(0, 1) < p);
 }

@@ -16,6 +16,7 @@
 #ifndef ____3_2_randomInteger__random__
 #define ____3_2_randomInteger__random__
 
+
 /*
  * Function: randomInteger
  * Usage: n = randomInteger(low, high);
@@ -34,5 +35,14 @@ int randomInteger(int low, int high);
 //  range low to high, inclusive
 
 double randomReal(double low, double high);
+
+
+//  Function: randomChance
+//  Usage: bool = randomChance(chance);
+//  ---------------------------
+//  This function returns a int value (1)RUE or (0)FALSE.
+//  It's has (p) probility return TRUE.
+
+int randomChance(double p);
 
 #endif /* defined(____3_2_randomInteger__random__) */
