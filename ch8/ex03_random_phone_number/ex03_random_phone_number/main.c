@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
 }
 
 void printRandomPhoneNumber(void) {
-    printf("%d%d%d-%3d\n", randomInteger(2, 9), randomInteger(2, 9), randomInteger(0, 9), randomInteger(0, 999));
+    printf("%d%d%d-%d%d%d%d\n", randomInteger(2, 9), randomInteger(2, 9), randomInteger(0, 9), randomInteger(0, 9), randomInteger(0, 9), randomInteger(0, 9), randomInteger(0, 9));
 }
 
 void randomize(void) {
