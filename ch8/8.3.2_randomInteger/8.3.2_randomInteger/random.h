@@ -26,4 +26,13 @@
 
 int randomInteger(int low, int high);
 
+
+//  Function: randomReal
+//  Usage: d = randomReal(low, high);
+//  ----------------------------
+//  This function returns a random real number in the
+//  range low to high, inclusive
+
+double randomReal(double low, double high);
+
 #endif /* defined(____3_2_randomInteger__random__) */

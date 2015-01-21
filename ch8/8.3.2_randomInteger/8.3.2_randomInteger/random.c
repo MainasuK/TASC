@@ -35,3 +35,18 @@ int randomInteger(int low, int high) {
     k = (int) (d * (high - low + 1));
     return (low + k);
 }
+
+
+//  Function: randomReal
+//  ---------------------------
+//  This function first obtains a random integer int
+//  the range [0..RAND_MAX] by applying two steps:
+//  (1) Generate a real number between 0 and 1.
+//  (2) Scale it to the appropriiate range size.
+
+double randomReal(double low, double high) {
+    double d;
+    
+    d = (double) rand() / ((double) RAND_MAX + 1);
+    return (low + d * (high - low));
+}
