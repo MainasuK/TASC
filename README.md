@@ -3,7 +3,7 @@ TASC
 
 Personal practices of The Art and Science of C
 
-In the chapter 7, I meet some problem to use the library from this book.
+In the chapter 7, I meet some problems to use the library from this book.
 This library is too old to use. You must use THINK C or Turbo C++ to run
 it. So I just learn some OpenGL to build the DrawTools which behaviour
 likes the "graphics.h".
