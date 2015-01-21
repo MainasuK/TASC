@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1D45761A6EA8A200018159 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB1D45751A6EA8A200018159 /* main.c */; };
+		DB1D457F1A6EA8AF00018159 /* DrawTools.c in Sources */ = {isa = PBXBuildFile; fileRef = DB1D457D1A6EA8AF00018159 /* DrawTools.c */; };
+		DB1D45821A6EA8C100018159 /* drawShadedBox.c in Sources */ = {isa = PBXBuildFile; fileRef = DB1D45801A6EA8C100018159 /* drawShadedBox.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB1D45701A6EA8A200018159 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB1D45721A6EA8A200018159 /* ex10_drawShadedBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex10_drawShadedBox; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1D45751A6EA8A200018159 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DB1D457D1A6EA8AF00018159 /* DrawTools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DrawTools.c; sourceTree = "<group>"; };
+		DB1D457E1A6EA8AF00018159 /* DrawTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawTools.h; sourceTree = "<group>"; };
+		DB1D45801A6EA8C100018159 /* drawShadedBox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drawShadedBox.c; sourceTree = "<group>"; };
+		DB1D45811A6EA8C100018159 /* drawShadedBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawShadedBox.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1D456F1A6EA8A200018159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1D45691A6EA8A200018159 = {
+			isa = PBXGroup;
+			children = (
+				DB1D45741A6EA8A200018159 /* ex10_drawShadedBox */,
+				DB1D45731A6EA8A200018159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1D45731A6EA8A200018159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D45721A6EA8A200018159 /* ex10_drawShadedBox */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1D45741A6EA8A200018159 /* ex10_drawShadedBox */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D45751A6EA8A200018159 /* main.c */,
+				DB1D45801A6EA8C100018159 /* drawShadedBox.c */,
+				DB1D45811A6EA8C100018159 /* drawShadedBox.h */,
+				DB1D457C1A6EA8AF00018159 /* DrawTools */,
+			);
+			path = ex10_drawShadedBox;
+			sourceTree = "<group>";
+		};
+		DB1D457C1A6EA8AF00018159 /* DrawTools */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D457D1A6EA8AF00018159 /* DrawTools.c */,
+				DB1D457E1A6EA8AF00018159 /* DrawTools.h */,
+			);
+			path = DrawTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1D45711A6EA8A200018159 /* ex10_drawShadedBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1D45791A6EA8A200018159 /* Build configuration list for PBXNativeTarget "ex10_drawShadedBox" */;
+			buildPhases = (
+				DB1D456E1A6EA8A200018159 /* Sources */,
+				DB1D456F1A6EA8A200018159 /* Frameworks */,
+				DB1D45701A6EA8A200018159 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex10_drawShadedBox;
+			productName = ex10_drawShadedBox;
+			productReference = DB1D45721A6EA8A200018159 /* ex10_drawShadedBox */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1D456A1A6EA8A200018159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cirno MainasuK";
+				TargetAttributes = {
+					DB1D45711A6EA8A200018159 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DB1D456D1A6EA8A200018159 /* Build configuration list for PBXProject "ex10_drawShadedBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB1D45691A6EA8A200018159;
+			productRefGroup = DB1D45731A6EA8A200018159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1D45711A6EA8A200018159 /* ex10_drawShadedBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1D456E1A6EA8A200018159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1D45761A6EA8A200018159 /* main.c in Sources */,
+				DB1D45821A6EA8C100018159 /* drawShadedBox.c in Sources */,
+				DB1D457F1A6EA8AF00018159 /* DrawTools.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB1D45771A6EA8A200018159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB1D45781A6EA8A200018159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB1D457A1A6EA8A200018159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB1D457B1A6EA8A200018159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1D456D1A6EA8A200018159 /* Build configuration list for PBXProject "ex10_drawShadedBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1D45771A6EA8A200018159 /* Debug */,
+				DB1D45781A6EA8A200018159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1D45791A6EA8A200018159 /* Build configuration list for PBXNativeTarget "ex10_drawShadedBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1D457A1A6EA8A200018159 /* Debug */,
+				DB1D457B1A6EA8A200018159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1D456A1A6EA8A200018159 /* Project object */;
+}
