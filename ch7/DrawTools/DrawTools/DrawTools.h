@@ -15,7 +15,7 @@
 
 /*
  * Function: drawLine
- * Usage: drawLine(dx, dy);
+ * Usage: drawLine(x1, x2, y1, y2);
  * ------------------------
  * This procedure draws a line extending from the current
  * point by moving the pen dx inches in the x direction
@@ -27,7 +27,7 @@ void drawLine(GLdouble x1, GLdouble y1, GLdouble x2, GLdouble y2);
 
 /*
  * Function: drawArc
- * Usage: drawArc(r, start, sweep);
+ * Usage: drawArc(x, y, r, start, sweep);
  * --------------------------------
  * This procedure draws a circular arc, which always begins
  * at the current point.  The arc itself has radius r, and
@@ -48,15 +48,15 @@ void drawLine(GLdouble x1, GLdouble y1, GLdouble x2, GLdouble y2);
  * along the arc.
  *
  * Examples:
- *   drawArc(r, 0, 360)    Draws a circle to the left of the
+ *   drawArc(x, y, r, 0, 360)    Draws a circle to the left of the
  *                         current point.
- *   drawArc(r, 90, 180)   Draws the left half of a semicircle
+ *   drawArc(x, y, r, 90, 180)   Draws the left half of a semicircle
  *                         starting from the 12 o'clock position.
- *   drawArc(r, 0, 90)     Draws a quarter circle from the 3
+ *   drawArc(x, y, r, 0, 90)     Draws a quarter circle from the 3
  *                         o'clock to the 12 o'clock position.
- *   drawArc(r, 0, -90)    Draws a quarter circle from the 3
+ *   drawArc(x, y, r, 0, -90)    Draws a quarter circle from the 3
  *                         o'clock to the 6 o'clock position.
- *   drawArc(r, -90, -90)  Draws a quarter circle from the 6
+ *   drawArc(x, y, r, -90, -90)  Draws a quarter circle from the 6
  *                         o'clock to the 9 o'clock position.
  */
 
