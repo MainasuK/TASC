@@ -10,10 +10,10 @@
 #include "random.h"
 #include <math.h>
 
-void game(GLdouble x, GLdouble y, GLdouble width, GLdouble height, int initScore) {
+void game(GLdouble x, GLdouble y, GLdouble width, GLdouble height, int *initScore) {
     drawBox(x, y, width, height);
     drawWindows(x, y, width, height);
-    drawPatter(x, y, width, height);
+    drawPatter(x, y, width, height, initScore);
 }
 
 void drawWindows(GLdouble x, GLdouble y, GLdouble width, GLdouble height) {
@@ -22,18 +22,21 @@ void drawWindows(GLdouble x, GLdouble y, GLdouble width, GLdouble height) {
     drawBox(x+width/13*9, y+height/4, width/13*3, height/2);
 }
 
-void drawPatter(GLdouble x, GLdouble y, GLdouble width, GLdouble height) {
+void drawPatter(GLdouble x, GLdouble y, GLdouble width, GLdouble height, int *initScore) {
     randomize();
+    int a, b, c;
     int def;
     GLdouble x1, y1, x2, y2, x3, y3;
     x1 = x + width  / 13 * 2.5;
     y1 = y + height / 4  * 2;
-    x3 = x2 = x1;
-    y3 = y2 = y1;
+    x2 = x + width  / 13 * 6.5;
+    y2 = y + height / 4  * 2;
+    x3 = x + width  / 13 * 10.5;
+    y3 = y + height / 4  * 2;
     def = randomInteger(1, 3);
     
-    def = randomInteger(1, 3);
-    printf("%d\n", def);
+    a = def = randomInteger(1, 3);
+//    printf("%d\n", def);
     switch (def) {
         case 1:
             drawCenteredCircle(x1, y1, width/4*0.3);
@@ -49,8 +52,8 @@ void drawPatter(GLdouble x, GLdouble y, GLdouble width, GLdouble height) {
     }
     
     
-    def = randomInteger(1, 3);
-    printf("%d\n", def);
+    b = def = randomInteger(1, 3);
+//    printf("%d\n", def);
     switch (def) {
         case 1:
             drawCenteredCircle(x2, y2, width/4*0.3);
@@ -65,8 +68,8 @@ void drawPatter(GLdouble x, GLdouble y, GLdouble width, GLdouble height) {
             break;
     }
     
-    def = randomInteger(1, 3);
-    printf("%d\n", def);
+    c = def = randomInteger(1, 3);
+//    printf("%d\n", def);
     switch (def) {
         case 1:
             drawCenteredCircle(x3, y3, width/4*0.3);
@@ -81,5 +84,13 @@ void drawPatter(GLdouble x, GLdouble y, GLdouble width, GLdouble height) {
             break;
     }
 
+    getScore(a, b, c, initScore);
+}
 
+void getScore(int a, int b, int c, int *initScore) {
+    if (*initScore -= 10) {
+        if (a == b && b == c)
+            *initScore += 50;
+        printf("Score is : %d\n", *initScore);
+    }
 }

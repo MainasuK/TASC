@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 #include "game.h"
 
 #define INIT 50
@@ -16,7 +17,13 @@
 
 void myDisplay(void) {
     glClear(GL_COLOR_BUFFER_BIT);   //  clear buffer
-    game(-0.9, -0.4, 1.8, 0.8, INIT);
+    int initScore = INIT;
+    int flag = 1;
+    char *answer;
+    do {
+        game(-0.9, -0.4, 1.8, 0.8, &initScore);
+        
+    } while (flag && initScore > 0);
 }
 
 

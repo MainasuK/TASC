@@ -13,7 +13,8 @@
 #include "DrawTools.h"
 #include "drawToolsPlus.h"
 
-void game(GLdouble x, GLdouble y, GLdouble width, GLdouble height, int initScore);
+void game(GLdouble x, GLdouble y, GLdouble width, GLdouble height, int *initScore);
 void drawWindows(GLdouble x, GLdouble y, GLdouble width, GLdouble height);
-void drawPatter(GLdouble x, GLdouble y, GLdouble width, GLdouble height);
+void drawPatter(GLdouble x, GLdouble y, GLdouble width, GLdouble height, int *initScore);
+void getScore(int a, int b, int c, int *initScore);
 #endif /* defined(__ex12_game__game__) */
