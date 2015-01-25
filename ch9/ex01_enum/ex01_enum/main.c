@@ -17,5 +17,6 @@ int main(int argc, const char * argv[]) {
         Blue,
         Violet
     } colorT;
+    printf("Hello, wolrd!\n");
     return 0;
 }
