@@ -11,7 +11,7 @@
 
 //  MonthDays returns the number of days in the indicated
 //  month and year. The year is required to handle leap years.
-int MonthDays(int month, int year) {
+int MonthDays(MonthT month, int year) {
     switch (month) {
         case 2:
             if (IsLeapYear(year)) return (29);

@@ -27,15 +27,21 @@ typedef enum {
     May = 5,
     June = 6,
     July = 7,
-};
+    August = 8,
+    September = 9,
+    October = 10,
+    November = 11,
+    December = 12
+} MonthT
+;
 void GiveInstructions(void);
 int GetYearFromUser(void);
 void PrintCalendar(int year);
-void PrintCalendarMonth(int month, int year);
-void IndentFirstLine(int weekday);
-int MonthDays(int month, int year);
-int FirstDayOfMonth(int month, int year);
-char *MonthName(int month);
+void PrintCalendarMonth(MonthT month, int year);
+void IndentFirstLine(WeekdayT weekday);
+int MonthDays(MonthT month, int year);
+WeekdayT FirstDayOfMonth(MonthT month, int year);
+char *MonthName(MonthT month);
 char IsLeapYear(int year);
 
 #endif

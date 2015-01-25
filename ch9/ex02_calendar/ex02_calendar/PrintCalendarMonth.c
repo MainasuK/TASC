@@ -11,7 +11,7 @@
 
 //  This procedure prints a calendar for the given month
 //  and year.
-void PrintCalendarMonth(int month, int year) {
+void PrintCalendarMonth(MonthT month, int year) {
     int weekday, nDays, day;
 
     printf("     %s %d\n", MonthName(month), year);

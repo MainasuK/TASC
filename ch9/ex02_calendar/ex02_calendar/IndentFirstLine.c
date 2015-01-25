@@ -7,11 +7,12 @@
 //
 
 #include <stdio.h>
+#include "calendar.h"
 
 //  This procedure indents the first line of the calendar
 //  by printing enough blank spaces to get to the position
 //  on hte line corresponding to weekday.
-void IndentFirstLine(int weekday) {
+void IndentFirstLine(WeekdayT weekday) {
     int i;
     
     for (i = 0; i < weekday; i++) {

@@ -7,23 +7,24 @@
 //
 
 #include <stdio.h>
+#include "calendar.h"
 
 //  MonthName converts a numeric month in the range 1-12
 //  into the strng name for that month.
-char *MonthName(int month) {
+char *MonthName(MonthT month) {
     switch (month) {
-        case  1: return ("January");
-        case  2: return ("February");
-        case  3: return ("March");
-        case  4: return ("April");
-        case  5: return ("May");
-        case  6: return ("June");
-        case  7: return ("July");
-        case  8: return ("August");
-        case  9: return ("September");
-        case 10: return ("October");
-        case 11: return ("November");
-        case 12: return ("December");
-        default: return ("Illegal month");
+        case January:   return ("January");
+        case February:  return ("February");
+        case March:     return ("March");
+        case April:     return ("April");
+        case May:       return ("May");
+        case June:      return ("June");
+        case July:      return ("July");
+        case August:    return ("August");
+        case September: return ("September");
+        case October:   return ("October");
+        case November:  return ("November");
+        case December:  return ("December");
+        default:        return ("Illegal month");
     }
 }

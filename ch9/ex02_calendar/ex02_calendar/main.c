@@ -7,9 +7,13 @@
 //
 
 #include <stdio.h>
+#include "calendar.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int year;
+    
+    GiveInstructions();
+    year = GetYearFromUser();
+    PrintCalendar(year);
     return 0;
 }

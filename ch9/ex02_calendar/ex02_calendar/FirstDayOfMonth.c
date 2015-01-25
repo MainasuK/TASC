@@ -12,7 +12,7 @@
 //  This function returns the day of the week on which the
 //  indicated month begins. This program simply counts
 //  forward from January 1, 1900, which was a Monday.
-int FirstDayOfMonth(int month, int year) {
+WeekdayT FirstDayOfMonth(MonthT month, int year) {
     int weekday, i;
     
     weekday = Monday;
