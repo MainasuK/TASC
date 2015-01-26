@@ -32,19 +32,20 @@ int main(int argc, const char * argv[]) {
 }
 
 char cyclicCipher(char ch, int i) {
+    i = i % ('z' - 'a');
     if (ch >= 'a' && ch <= 'z') {
         ch += i;
         if (ch < 'a') {
-            ch = ch + 'z' - 'a';
+            ch = ch + 'z' - 'a' + 1;
         } else if (ch > 'z') {
-            ch = ch - 'z' - 'a';
+            ch = ch - 'z' - 'a' + 1;
         }
     } else if (ch >= 'A' && ch <= 'Z') {
         ch += i;
         if (ch < 'A') {
-            ch = ch + 'Z' - 'A';
+            ch = ch + 'Z' - 'A' + 1;
         } else if (ch > 'Z') {
-            ch = ch - 'Z' - 'A';
+            ch = ch - 'Z' - 'A' + 1;
         }
     }
     return ch;
