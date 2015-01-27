@@ -1,0 +1,68 @@
+README file for the mac-think-c subdirectory
+Last modified on Thu Oct 20 00:01:21 1994 by eroberts
+________________________________________________________________________
+
+This directory contains an implementation of the cslib library designed
+for use with the THINK C and Symantec C++ compilers for the Macintosh.
+The development and testing of the package has been performed with
+version 5.0 and 6.0 of the THINK C compiler and version 7.0 of the
+Symantec C++ compiler.  The library packages may work with other
+versions of these compiler, but it is impossible to test the package
+with every version of existing compilers.
+
+TO INSTALL THE MACINTOSH VERSION OF THE LIBRARIES ON YOUR MACHINE:
+
+1.  Connect your FTP application to the mac-think-c directory on the
+    aw.com server.
+
+2.  If your version of FTP allows you to do so, set the transfer type to
+    BinHex4 and retrieve the file cslib.hqx.  This file is a compressed
+    archive of the library package produced using a combination of two
+    utilities for the Macintosh: CompactPro and BinHex4.  If your FTP
+    application does not support BinHex4 retrieval directly, retrieve
+    the cslib.hqx archive in text mode and run it through the public-
+    domain BinHex4 conversion utility, which you will have to obtain for
+    your Macintosh.  At this point, you should have an application file
+    on your Macintosh called cslib.sea, which is the output of the
+    BinHex4 conversion.
+
+3.  Run the cslib.sea application by double-clicking its icon.
+
+4.  When the file dialog for the CompactPro utility appears, select the
+    folder that contains the THINK C or Symantec C++ application.  Note
+    that this is not usually the top-level folder for the compiler
+    package but is instead one folder level down in a folder labeled
+    something like "THINK C 5.0 Folder".
+
+5.  Click the Extract button to unpack the archive.
+
+6.  For each of the project files in the CS Libraries folder created in
+    the previous step, use the compiler to build a new library file and
+    save it in that folder.
+
+Note that the Macintosh system creates three different libraries --
+ cslib.lib, graphics.lib, and random.lib -- rather than a single file
+containing all of the libraries.  On the Macintosh, each library is
+restricted to a single 32K segment, and the libraries are therefore
+divided into pieces to ensure that this restriction is met.
+
+USING CSLIB ON THE MACINTOSH
+
+To build a Macintosh program using the cslib libraries, you need to
+include the libraries it uses as part of the project.  You must also
+ensure that the project uses the same compiler options that were used to
+produce the libraries.  For example, if the libraries were compiled
+using 2-byte integers, the application project must also use 2-byte
+integers.  The compiler does not check whether the option settings are
+consistent; if they are not, it simply produces programs that will not
+run correctly.
+
+NOTES AND DISCLAIMERS
+
+The cslib libraries are in the public domain and may be freely copied
+and distributed, although they remain under development.  No warranties
+are made concerning their correctness or stability, and no user support
+is guaranteed.  Bug reports and suggestions, however, are appreciated
+and may be sent to
+
+                      Eric Roberts <ericr@aw.com>

@@ -1,0 +1,56 @@
+README file for the pc-turbo subdirectory
+Last modified on Sat Nov  5 12:52:36 1994 by eroberts
+________________________________________________________________________
+
+The pc-turbo directory contains an implementation of the cslib library
+designed for use with the Turbo C++ compiler for Microsoft Windows.  The
+code is identical to that in the pc-borland subdirectory.  However,
+because the Turbo C++ compiler does not come with the same installation
+tools, the instructions for installing the package are different.
+
+TO INSTALL THE PC/TURBO VERSION OF THE LIBRARIES:
+
+1.  Make sure that the Turbo C++ compiler is installed on your system.
+
+2.  Use FTP to retrieve the file CSLIB.EXE from the pc-turbo
+    subdirectory of the aw.com archive.  To retrieve the file correctly,
+    you must set your FTP process to binary mode.
+
+3.  Execute the CSLIB.EXE file by typing
+
+         CSLIB
+
+    at the DOS prompt.  This command constructs the complete CSLIB
+    directory.
+
+4.  Copy all of the .h files from the CSLIB directory to the INCLUDE
+    directory supplied with the TURBO C compiler.  By default, this
+    directory is \TCWIN\INCLUDE.
+
+5.  If you are installing this package on a shared machine, copy the
+    CSLIB.LIB library into some public directory where students can
+    easily gain access to it.
+
+USING CSLIB IN THE TURBO C++ ENVIRONMENT
+
+To build a program using the cslib libraries, you need to make sure that
+the project uses the large memory model.  To do so, pull down the
+Options menu and select the "Code generation" submenu from the
+"Compiler" option.  Click on the box that indicates the large model and
+then click OK.
+
+You must also add the CSLIB.LIB file to each project that you create.
+
+The cslib directory contains the sample project HELLO.PRJ, which
+executes the "Hello world" program.  This project has the correct option
+settings and includes the CSLIB.LIB library.
+
+NOTES AND DISCLAIMERS
+
+The cslib libraries are in the public domain and may be freely copied
+and distributed, although they remain under development.  No warranties
+are made concerning their correctness or stability, and no user support
+is guaranteed.  Bug reports and suggestions, however, are appreciated
+and may be sent to
+
+                      Eric Roberts <ericr@aw.com>

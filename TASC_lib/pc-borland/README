@@ -1,0 +1,95 @@
+README file for the pc-borland subdirectory
+Last modified on Fri Oct 21 13:26:03 1994 by eroberts
+________________________________________________________________________
+
+The pc-borland directory contains an implementation of the cslib library
+designed for use with the Borland C/C++ compiler.  The development and
+testing of the package has been performed with version 4.0 of the
+compiler, so you should use that version if possible.  The library
+packages -- particularly the DOS version -- may work with older versions
+of the compiler, but it is not possible to test the package with every
+existing version of the compiler.
+
+INSTALLING THE BORLAND LIBRARIES
+
+There are actually two versions of the Borland cslib package: one for
+DOS and one for Microsoft Windows.  The easiest apporach is to install
+both versions of these libraries on your machine and then use whichever
+one is appropriate for your class.
+
+TO INSTALL THE PC/BORLAND VERSION OF THE LIBRARIES:
+
+1.  Make sure that the Borland C/C++ compiler is installed on your
+    system.
+
+2.  Connect to the top-level directory for the Borland compiler.  This
+    directory should contain, among others, the subdirectories BIN, LIB,
+    INCLUDE, and BGI.
+
+3.  Use FTP to retrieve the file CSLIB.EXE from the pc-borland
+    subdirectory of the aw.com archive.  To retrieve the file correctly,
+    you must set your FTP process to binary mode.
+
+4.  Execute the CSLIB.EXE file by typing
+
+         CSLIB
+
+    at the DOS prompt.  This command constructs the complete CSLIB
+    directory.
+
+5.  Complete the installation of the package by typing
+
+         CSLIB\TOOLS\INSTALL
+
+    This command installs all the #include files in the appropriate
+    directory and then rebuilds all the necessary object files and
+    libraries.
+
+USING CSLIB IN A DOS ENVIRONMENT
+
+The DOS version of the library package is intended for PC users who do
+not run Microsoft Windows.  Even without Windows, C programs can perform
+simple graphics, and the DOS version of the libraries implements the
+basic graphics.h interface using the DOS-based Borland Graphics
+Interface.  None of the advanced features of the extgraph.h interface
+are available in the DOS version.
+
+To build a DOS program using the libraries, you need to make sure that
+the following parameters are set in the project window:
+
+    Target type = Application
+    Platform = DOS Standard
+    Target Model = Large
+    Standard Libraries: BGI + Runtime
+
+You must also add the file CSLIB\DOS\CSLIB.LIB to each project that you
+create.
+
+USING CSLIB IN A MICROSOFT WINDOWS ENVIRONMENT
+
+The Windows version of the library package is significantly more
+powerful that the DOS version, but requires you to run Microsoft Windows
+on your machine.  The Windows version of cslib contains a complete
+implementation of the graphics library that includes both the standard
+and the extended features.
+
+To build a Windows program using the libraries, you need to make sure
+that the following parameters are set in the project window:
+
+    Target type = EasyWin
+    Platform = Windows 3.x(16)
+    Target Model = Large
+    Standard Libraries: Runtime
+
+You must also add the file CSLIB\WINDOWS\CSLIB.LIB to each project that
+you create.
+
+NOTES AND DISCLAIMERS
+
+The cslib libraries are in the public domain and may be freely copied
+and distributed, although they remain under development.  No warranties
+are made concerning their correctness or stability, and no user support
+is guaranteed.  Bug reports and suggestions, however, are appreciated
+and may be sent to
+
+                      Eric Roberts <ericr@aw.com>
