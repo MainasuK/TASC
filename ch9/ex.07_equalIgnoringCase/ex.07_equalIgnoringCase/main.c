@@ -1,6 +1,6 @@
 //
 //  main.c
-//  ex.07_equalIgnoringCase
+//  ex07_equalIgnoringCase
 //
 //  Created by Cirno MainasuK on 2015-1-25.
 //  Copyright (c) 2015年 Cirno MainasuK. All rights reserved.

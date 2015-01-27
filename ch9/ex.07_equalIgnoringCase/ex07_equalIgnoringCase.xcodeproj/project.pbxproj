@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DB7DE9F71A752F7C00410D0B /* ex.07_equalIgnoringCase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex.07_equalIgnoringCase; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7DE9F71A752F7C00410D0B /* ex07_equalIgnoringCase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex07_equalIgnoringCase; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7DE9FA1A752F7C00410D0B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		DB7DE9F81A752F7C00410D0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB7DE9F71A752F7C00410D0B /* ex.07_equalIgnoringCase */,
+				DB7DE9F71A752F7C00410D0B /* ex07_equalIgnoringCase */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB7DE9F61A752F7C00410D0B /* ex.07_equalIgnoringCase */ = {
+		DB7DE9F61A752F7C00410D0B /* ex07_equalIgnoringCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB7DE9FE1A752F7C00410D0B /* Build configuration list for PBXNativeTarget "ex.07_equalIgnoringCase" */;
+			buildConfigurationList = DB7DE9FE1A752F7C00410D0B /* Build configuration list for PBXNativeTarget "ex07_equalIgnoringCase" */;
 			buildPhases = (
 				DB7DE9F31A752F7C00410D0B /* Sources */,
 				DB7DE9F41A752F7C00410D0B /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = ex.07_equalIgnoringCase;
+			name = ex07_equalIgnoringCase;
 			productName = ex.07_equalIgnoringCase;
-			productReference = DB7DE9F71A752F7C00410D0B /* ex.07_equalIgnoringCase */;
+			productReference = DB7DE9F71A752F7C00410D0B /* ex07_equalIgnoringCase */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB7DE9F21A752F7C00410D0B /* Build configuration list for PBXProject "ex.07_equalIgnoringCase" */;
+			buildConfigurationList = DB7DE9F21A752F7C00410D0B /* Build configuration list for PBXProject "ex07_equalIgnoringCase" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB7DE9F61A752F7C00410D0B /* ex.07_equalIgnoringCase */,
+				DB7DE9F61A752F7C00410D0B /* ex07_equalIgnoringCase */,
 			);
 		};
 /* End PBXProject section */
@@ -202,21 +202,21 @@
 		DB7DE9FF1A752F7C00410D0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ex07_equalIgnoringCase;
 			};
 			name = Debug;
 		};
 		DB7DEA001A752F7C00410D0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ex07_equalIgnoringCase;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB7DE9F21A752F7C00410D0B /* Build configuration list for PBXProject "ex.07_equalIgnoringCase" */ = {
+		DB7DE9F21A752F7C00410D0B /* Build configuration list for PBXProject "ex07_equalIgnoringCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB7DE9FC1A752F7C00410D0B /* Debug */,
@@ -225,13 +225,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB7DE9FE1A752F7C00410D0B /* Build configuration list for PBXNativeTarget "ex.07_equalIgnoringCase" */ = {
+		DB7DE9FE1A752F7C00410D0B /* Build configuration list for PBXNativeTarget "ex07_equalIgnoringCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB7DE9FF1A752F7C00410D0B /* Debug */,
 				DB7DEA001A752F7C00410D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

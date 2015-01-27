@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ex.07_equalIgnoringCase.xcodeproj">
+      location = "self:ex07_equalIgnoringCase.xcodeproj">
    </FileRef>
 </Workspace>
