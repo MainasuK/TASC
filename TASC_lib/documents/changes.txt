@@ -1,0 +1,74 @@
+File: changes.txt
+Last modified on Mon Mar  6 07:43:10 1995 by eroberts
+________________________________________________________________________
+
+This file lists changes in the cslib libraries in reverse chronological
+order, beginning with the most recent version and continuing backward to
+version 1.2, which was the first version announced as available:
+
+Version 3.1 (27-Feb-95, Eric Roberts):
+  o  Fixed several bugs in the handling of the mouse code for the
+     Borland/PC version.
+  o  Changed identifier names in the exception.h file to avoid conflicts
+     with the TURBO compiler.
+  o  Fixed a bug in the black-and-white monitor creation code for the
+     THINK/Mac version.
+  o  Corrected an incompatibility in the graphics.c implementation that
+     failed with the THINK C 7.0 headers.
+
+Version 3.0 (25-Oct-94, Eric Roberts):
+  o  Includes an extensively revised extgraph.h interface that supports
+     color graphics and mouse clicks.
+  o  Incorporates the version 2.0 change so that the erasing model is
+     equivalent to painting with white paint.  The model from the
+     version 1 releases was difficult to understand.
+  o  Extended implementation to take better account of variations in
+     display size.
+  o  Restructured the export directories to make it easier to import an
+     entire system.
+  o  Changed the UNIX/XWindows version Makefile so that it automatically
+     configures the compilation for System V or BSD systems, as
+     appropriate.
+  o  Improved the documentation, adding several new README files and
+     related papers.
+
+Version 2.0 (not released outside of Stanford):
+     This version was used at Stanford on an experimental basis during
+     the summer of 1994.  The major change was the use of offscreen
+     memory to maintain the screen image rather than a display list;
+     because this change affects the interface model by changing how
+     erase mode works, this revision was considered to be an interface-
+     level revision, giving rise to the new major version number.  By
+     the end of summer, this version had already been superseded by
+     Version 3.0 and was therefore never released outside of Stanford.
+
+Version 1.8 (2-Aug-94, Eric Roberts):
+  o  Improved documentation and structure
+  o  Released version to aw.com
+
+Version 1.7 (20-Jun-94, Eric Roberts):
+  o  Fixed minor bug in strlib.c; the bug affected only clients using
+     garbage collection, which is not publically released.
+
+Version 1.6 (19-Apr-94, Eric Roberts):
+  o  Restructured library directories
+  o  Added basic subdirectory containing minimal version
+  o  Minor cleanups to code and comments
+
+Version 1.5 (1-Jan-94, Eric Roberts):
+  o  Included the gcalloc.h interface so that the genlib.c file is
+     standard
+  o  Libraries are now safe for garbage collection
+
+Version 1.4 (20-Oct-93, Eric Roberts):
+  o  Added number/string conversion functions to strlib.h
+  o  Fixed definition of TRUE/FALSE on systems that already define bool
+  o  Made minor corrections to comments in several libraries
+
+Version 1.3 (23-Sep-93, Eric Roberts):
+  o  Made major changes to graphics.h interface to correspond to text
+  o  Tightened up strlib.h
+  o  Added GetLong to simpio.h
+
+Version 1.2 (6-Aug-93, Eric Roberts):
+  o  Released to anonymous FTP on labrea.stanford.edu.

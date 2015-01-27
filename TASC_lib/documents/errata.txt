@@ -1,0 +1,98 @@
+File: errata.txt
+Last modified on Thu Oct 20 14:13:14 1994 by eroberts
+________________________________________________________________________
+
+This file describes the most serious errors that have been uncovered in
+the text.  These errors will be corrected in the second printing.
+
+Page 124, second-to-last text line before Figure 4-6:
+  The sentence beginning with "Duplication of code" is missing a "not"
+  that renders the whole idea meaningless.  The sentence should read as
+  follows:
+
+     Duplication of code presents a serious maintenance problem
+     because subsequent edits to one set of statements might not be
+     made to the other.
+
+Page 182, second and third paragraphs:
+  The name of the function given in the exercise does not match the name
+  in the code, which is correct.  Every instance of GetYesNoResponse in
+  these paragraphs should change to GetYesOrNo, as follows:
+
+     Write a predicate function GetYesOrNo that takes a prompt
+     string as its argument and displays that prompt as a question
+     to the user.  If the user responds with the word yes,
+     GetYesOrNo should return TRUE.  If the user responds with no,
+     GetYesOrNo should return FALSE.  If the user gives any other
+     response, the function should display a message informing the
+     user of the legal responses and then ask the question again.
+       Given the GetYesOrNo function, you could then change the
+     game-playing loop to
+
+Page 241, first paragraph:
+  I changed the constants in the code without correcting the paragraph
+  that talks about them.  The code is correct, and the first three
+  sentences in the paragraph need to change as follows:
+
+     Before you start writing the actual program, however, notice
+     that this specific house has many attributes that define its
+     shape.  For example, the house is 3.0 inches wide.  The
+     distance from the ground to the attic is 2.0 inches, with
+     another 0.7 inches to the peak of the roof.
+
+Page 503, fourth line in Table 14-1:
+  The first word in the fourth entry should be strncat, not strncpy,
+  which was already listed on line 2.  Thus the first four lines of the
+  table should read:
+
+     strcpy(dst, src)      Copies characters from src into dst
+     strncpy(dst, src, n)  Copies at most n characters from src into dst
+     strcat(dst, src)      Appends characters from src to the end of dst
+     strncat(dst, src, n)  Appends at most n characters from src to dst
+
+Page 552, last text paragraph before sample run:
+  This paragraph uses ReadLine, readline.c, and readline.h when it
+  should be using ReadFile, readfile.c, and readfile.h.  The corrected
+  paragraph looks like this:
+
+     Put the implementation of ReadFile in a separate readfile.c
+     file and design a readfile.h interface that gives clients
+     access to it.  Use the readfile.h interface to write a main
+     program that displays the lines in a file in reverse order.
+     For example, given the prospero.txt file as input, the output
+     of the program should be
+
+Page 603, second paragraph:
+  Because of a last-minute change in the text, my math is off by a
+  factor of 10 in this paragraph.  The two instances of 100,000 should
+  each be 10,000, so that the paragraph reads as follows:
+
+     If you know someone who is willing to write a check for the
+     entire $1,000,000, your job is easy.  On the other hand, you
+     may not be lucky enough to have friends who are generous
+     millionaires.  In that case, you must raise the $1,000,000 in
+     smaller amounts.  If the average contribution to your
+     organization is $100, you might choose a different tack: call
+     10,000 friends and ask each of them for $100.  But then again,
+     you probably don't have 10,000 friends.  So what can you do?
+
+Page 660, second marginal entry from the end:
+  The word NULL must be entirely in uppercase Courier.  It's correct in
+  the text, but wrong in the margin.
+
+Page 663, second line on the page:
+  The arguments to putchar are incorrect.  The first two lines should
+  look like this:
+
+     int putc(char ch, FILE *outfile);
+     int putchar(char ch);
+
+Page 665, last entry on the page:
+  The entry for atan2 is wrong and should be replaced as follows:
+
+     int atan2(double y, double x);
+     This function returns the angle formed between the x-axis and
+     the line extending from the origin through the point (x, y).
+     As with the other trigonometric functions, the angle is
+     expressed in radians.  Note that y appears first in the
+     argument list.

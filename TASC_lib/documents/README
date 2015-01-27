@@ -1,0 +1,52 @@
+README file for the documents subdirectory
+Last modified on Sat Sep 24 19:04:07 1994 by eroberts
+________________________________________________________________________
+
+The documents subdirectory contains several papers and other textual
+materials about the cslib teaching libraries and the approach used in
+the text "The Art and Science of C".  The current contents of the
+directory are
+
+README         This file presents an overview of the documents
+               directory.
+
+errata.txt     This file contains a list of the most important errors
+               detected in the text.
+
+changes.txt    This file lists changes in the cslib libraries in reverse
+               chronological order, beginning with the most recent
+               version and continuing backward to version 1.2, the first
+               publicly available version.
+
+usingc.txt     This file contains the text of the paper "Using C in CS1:
+               Evaluating the Stanford experience" by Eric Roberts,
+               which was presented at the 24th ACM Computer Science
+               Education Conference in February 1993.  It describes the
+               rationale behind the library-based approach to teaching C
+               and discusses Stanford's early experience using it.
+
+graphics.txt   This file contains the text of the paper "A C-based
+               graphics library for CS1" by Eric Roberts, which has been
+               submitted for publication at the 26th ACM Computer
+               Science Education Conference in March 1995.  The paper
+               focuses on the design of the graphics library and how it
+               achieves its goals of simplicity and portability.
+
+loopexit.txt   This file contains the text of the paper "Loop exits and
+               structured programming: Reopening the debate" by Eric
+               Roberts, which has been submitted for publication at the
+               26th ACM Computer Science Education Conference in March
+               1995.  This paper defends the position that students are
+               more apt to write correct programs if they are allowed to
+               exit from the interior of a loop in certain constrained
+               situations.
+
+ugradtas.txt   This file contains the text of the paper "Using
+               undergraduates as teaching assistants in introductory
+               programming courses: An update on the Stanford
+               experience" by Eric Roberts, John Lilly, and Bryan
+               Rollins, which has been submitted for publication at the
+               26th ACM Computer Science Education Conference in March
+               1995.  This paper discusses Stanford's use of advanced
+               undergraduates to provide teaching support for the CS1
+               course.
