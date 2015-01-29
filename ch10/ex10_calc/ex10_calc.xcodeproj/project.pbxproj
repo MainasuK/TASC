@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DB5F74A31A7A1350002021B9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB5F74A21A7A1350002021B9 /* main.c */; };
+		DB5F74D91A7A1609002021B9 /* exception.c in Sources */ = {isa = PBXBuildFile; fileRef = DB5F74CE1A7A1609002021B9 /* exception.c */; };
+		DB5F74DA1A7A1609002021B9 /* genlib.c in Sources */ = {isa = PBXBuildFile; fileRef = DB5F74D11A7A1609002021B9 /* genlib.c */; };
+		DB5F74DB1A7A1609002021B9 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = DB5F74D31A7A1609002021B9 /* scanner.c */; };
+		DB5F74DC1A7A1609002021B9 /* simpio.c in Sources */ = {isa = PBXBuildFile; fileRef = DB5F74D51A7A1609002021B9 /* simpio.c */; };
+		DB5F74DD1A7A1609002021B9 /* strlib.c in Sources */ = {isa = PBXBuildFile; fileRef = DB5F74D71A7A1609002021B9 /* strlib.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		DB5F749F1A7A1350002021B9 /* ex10_calc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex10_calc; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5F74A21A7A1350002021B9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DB5F74CE1A7A1609002021B9 /* exception.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exception.c; sourceTree = "<group>"; };
+		DB5F74CF1A7A1609002021B9 /* exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exception.h; sourceTree = "<group>"; };
+		DB5F74D01A7A1609002021B9 /* gcalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gcalloc.h; sourceTree = "<group>"; };
+		DB5F74D11A7A1609002021B9 /* genlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = genlib.c; sourceTree = "<group>"; };
+		DB5F74D21A7A1609002021B9 /* genlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genlib.h; sourceTree = "<group>"; };
+		DB5F74D31A7A1609002021B9 /* scanner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
+		DB5F74D41A7A1609002021B9 /* scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scanner.h; sourceTree = "<group>"; };
+		DB5F74D51A7A1609002021B9 /* simpio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = simpio.c; sourceTree = "<group>"; };
+		DB5F74D61A7A1609002021B9 /* simpio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpio.h; sourceTree = "<group>"; };
+		DB5F74D71A7A1609002021B9 /* strlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlib.c; sourceTree = "<group>"; };
+		DB5F74D81A7A1609002021B9 /* strlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strlib.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				DB5F74A21A7A1350002021B9 /* main.c */,
+				DB5F74CE1A7A1609002021B9 /* exception.c */,
+				DB5F74CF1A7A1609002021B9 /* exception.h */,
+				DB5F74D01A7A1609002021B9 /* gcalloc.h */,
+				DB5F74D11A7A1609002021B9 /* genlib.c */,
+				DB5F74D21A7A1609002021B9 /* genlib.h */,
+				DB5F74D31A7A1609002021B9 /* scanner.c */,
+				DB5F74D41A7A1609002021B9 /* scanner.h */,
+				DB5F74D51A7A1609002021B9 /* simpio.c */,
+				DB5F74D61A7A1609002021B9 /* simpio.h */,
+				DB5F74D71A7A1609002021B9 /* strlib.c */,
+				DB5F74D81A7A1609002021B9 /* strlib.h */,
 			);
 			path = ex10_calc;
 			sourceTree = "<group>";
@@ -118,7 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5F74DB1A7A1609002021B9 /* scanner.c in Sources */,
+				DB5F74DA1A7A1609002021B9 /* genlib.c in Sources */,
 				DB5F74A31A7A1350002021B9 /* main.c in Sources */,
+				DB5F74DD1A7A1609002021B9 /* strlib.c in Sources */,
+				DB5F74DC1A7A1609002021B9 /* simpio.c in Sources */,
+				DB5F74D91A7A1609002021B9 /* exception.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
