@@ -11,9 +11,9 @@
 
 #include <stdio.h>
 
-
-void readLable(void);
-void printLable(int loop);
-
+void initLabelGenerator(void);
+void getNextLabel(void);
+void setLabelPrefix(char *prefix);
+void setLabelNumber(int number);
 
 #endif /* defined(__ex11_label_generator__labelGenerator__) */
