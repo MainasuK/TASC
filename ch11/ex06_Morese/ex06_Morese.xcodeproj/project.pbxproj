@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBAC03E01A7C6AE900392E8C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DBAC03DF1A7C6AE900392E8C /* main.c */; };
+		DBAC03E81A7C6AFC00392E8C /* morseCode.c in Sources */ = {isa = PBXBuildFile; fileRef = DBAC03E61A7C6AFC00392E8C /* morseCode.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBAC03DA1A7C6AE900392E8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBAC03DC1A7C6AE900392E8C /* ex06_Morese */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex06_Morese; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAC03DF1A7C6AE900392E8C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DBAC03E61A7C6AFC00392E8C /* morseCode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = morseCode.c; sourceTree = "<group>"; };
+		DBAC03E71A7C6AFC00392E8C /* morseCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = morseCode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBAC03D91A7C6AE900392E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBAC03D31A7C6AE900392E8C = {
+			isa = PBXGroup;
+			children = (
+				DBAC03DE1A7C6AE900392E8C /* ex06_Morese */,
+				DBAC03DD1A7C6AE900392E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBAC03DD1A7C6AE900392E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBAC03DC1A7C6AE900392E8C /* ex06_Morese */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBAC03DE1A7C6AE900392E8C /* ex06_Morese */ = {
+			isa = PBXGroup;
+			children = (
+				DBAC03DF1A7C6AE900392E8C /* main.c */,
+				DBAC03E61A7C6AFC00392E8C /* morseCode.c */,
+				DBAC03E71A7C6AFC00392E8C /* morseCode.h */,
+			);
+			path = ex06_Morese;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBAC03DB1A7C6AE900392E8C /* ex06_Morese */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAC03E31A7C6AE900392E8C /* Build configuration list for PBXNativeTarget "ex06_Morese" */;
+			buildPhases = (
+				DBAC03D81A7C6AE900392E8C /* Sources */,
+				DBAC03D91A7C6AE900392E8C /* Frameworks */,
+				DBAC03DA1A7C6AE900392E8C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex06_Morese;
+			productName = ex06_Morese;
+			productReference = DBAC03DC1A7C6AE900392E8C /* ex06_Morese */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBAC03D41A7C6AE900392E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cirno MainasuK";
+				TargetAttributes = {
+					DBAC03DB1A7C6AE900392E8C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DBAC03D71A7C6AE900392E8C /* Build configuration list for PBXProject "ex06_Morese" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBAC03D31A7C6AE900392E8C;
+			productRefGroup = DBAC03DD1A7C6AE900392E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBAC03DB1A7C6AE900392E8C /* ex06_Morese */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBAC03D81A7C6AE900392E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBAC03E01A7C6AE900392E8C /* main.c in Sources */,
+				DBAC03E81A7C6AFC00392E8C /* morseCode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DBAC03E11A7C6AE900392E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBAC03E21A7C6AE900392E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBAC03E41A7C6AE900392E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBAC03E51A7C6AE900392E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBAC03D71A7C6AE900392E8C /* Build configuration list for PBXProject "ex06_Morese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAC03E11A7C6AE900392E8C /* Debug */,
+				DBAC03E21A7C6AE900392E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBAC03E31A7C6AE900392E8C /* Build configuration list for PBXNativeTarget "ex06_Morese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAC03E41A7C6AE900392E8C /* Debug */,
+				DBAC03E51A7C6AE900392E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBAC03D41A7C6AE900392E8C /* Project object */;
+}
