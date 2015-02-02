@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB86FEA31A7FB23C00716189 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB86FEA21A7FB23C00716189 /* main.c */; };
+		DB86FEAB1A7FB25500716189 /* median.c in Sources */ = {isa = PBXBuildFile; fileRef = DB86FEA91A7FB25500716189 /* median.c */; };
+		DB86FEAE1A7FB2E900716189 /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = DB86FEAC1A7FB2E900716189 /* sort.c */; };
+		DB86FEBC1A7FB2F400716189 /* genlib.c in Sources */ = {isa = PBXBuildFile; fileRef = DB86FEB01A7FB2F400716189 /* genlib.c */; };
+		DB86FEBD1A7FB2F400716189 /* graphics.c in Sources */ = {isa = PBXBuildFile; fileRef = DB86FEB21A7FB2F400716189 /* graphics.c */; };
+		DB86FEBE1A7FB2F400716189 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = DB86FEB41A7FB2F400716189 /* Makefile */; };
+		DB86FEBF1A7FB2F400716189 /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = DB86FEB51A7FB2F400716189 /* random.c */; };
+		DB86FEC01A7FB2F400716189 /* simpio.c in Sources */ = {isa = PBXBuildFile; fileRef = DB86FEB81A7FB2F400716189 /* simpio.c */; };
+		DB86FEC11A7FB2F400716189 /* strlib.c in Sources */ = {isa = PBXBuildFile; fileRef = DB86FEBA1A7FB2F400716189 /* strlib.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB86FE9D1A7FB23C00716189 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB86FE9F1A7FB23C00716189 /* ex05_median */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex05_median; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB86FEA21A7FB23C00716189 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DB86FEA91A7FB25500716189 /* median.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = median.c; sourceTree = "<group>"; };
+		DB86FEAA1A7FB25500716189 /* median.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = median.h; sourceTree = "<group>"; };
+		DB86FEAC1A7FB2E900716189 /* sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
+		DB86FEAD1A7FB2E900716189 /* sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
+		DB86FEB01A7FB2F400716189 /* genlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = genlib.c; sourceTree = "<group>"; };
+		DB86FEB11A7FB2F400716189 /* genlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genlib.h; sourceTree = "<group>"; };
+		DB86FEB21A7FB2F400716189 /* graphics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = graphics.c; sourceTree = "<group>"; };
+		DB86FEB31A7FB2F400716189 /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
+		DB86FEB41A7FB2F400716189 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DB86FEB51A7FB2F400716189 /* random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = random.c; sourceTree = "<group>"; };
+		DB86FEB61A7FB2F400716189 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		DB86FEB71A7FB2F400716189 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DB86FEB81A7FB2F400716189 /* simpio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = simpio.c; sourceTree = "<group>"; };
+		DB86FEB91A7FB2F400716189 /* simpio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpio.h; sourceTree = "<group>"; };
+		DB86FEBA1A7FB2F400716189 /* strlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlib.c; sourceTree = "<group>"; };
+		DB86FEBB1A7FB2F400716189 /* strlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strlib.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB86FE9C1A7FB23C00716189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB86FE961A7FB23C00716189 = {
+			isa = PBXGroup;
+			children = (
+				DB86FEA11A7FB23C00716189 /* ex05_median */,
+				DB86FEA01A7FB23C00716189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB86FEA01A7FB23C00716189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB86FE9F1A7FB23C00716189 /* ex05_median */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB86FEA11A7FB23C00716189 /* ex05_median */ = {
+			isa = PBXGroup;
+			children = (
+				DB86FEA21A7FB23C00716189 /* main.c */,
+				DB86FEA91A7FB25500716189 /* median.c */,
+				DB86FEAC1A7FB2E900716189 /* sort.c */,
+				DB86FEAF1A7FB2F400716189 /* simplified */,
+				DB86FEAD1A7FB2E900716189 /* sort.h */,
+				DB86FEAA1A7FB25500716189 /* median.h */,
+			);
+			path = ex05_median;
+			sourceTree = "<group>";
+		};
+		DB86FEAF1A7FB2F400716189 /* simplified */ = {
+			isa = PBXGroup;
+			children = (
+				DB86FEB01A7FB2F400716189 /* genlib.c */,
+				DB86FEB11A7FB2F400716189 /* genlib.h */,
+				DB86FEB21A7FB2F400716189 /* graphics.c */,
+				DB86FEB31A7FB2F400716189 /* graphics.h */,
+				DB86FEB41A7FB2F400716189 /* Makefile */,
+				DB86FEB51A7FB2F400716189 /* random.c */,
+				DB86FEB61A7FB2F400716189 /* random.h */,
+				DB86FEB71A7FB2F400716189 /* README */,
+				DB86FEB81A7FB2F400716189 /* simpio.c */,
+				DB86FEB91A7FB2F400716189 /* simpio.h */,
+				DB86FEBA1A7FB2F400716189 /* strlib.c */,
+				DB86FEBB1A7FB2F400716189 /* strlib.h */,
+			);
+			path = simplified;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB86FE9E1A7FB23C00716189 /* ex05_median */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB86FEA61A7FB23C00716189 /* Build configuration list for PBXNativeTarget "ex05_median" */;
+			buildPhases = (
+				DB86FE9B1A7FB23C00716189 /* Sources */,
+				DB86FE9C1A7FB23C00716189 /* Frameworks */,
+				DB86FE9D1A7FB23C00716189 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex05_median;
+			productName = ex05_median;
+			productReference = DB86FE9F1A7FB23C00716189 /* ex05_median */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB86FE971A7FB23C00716189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cirno MainasuK";
+				TargetAttributes = {
+					DB86FE9E1A7FB23C00716189 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DB86FE9A1A7FB23C00716189 /* Build configuration list for PBXProject "ex05_median" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB86FE961A7FB23C00716189;
+			productRefGroup = DB86FEA01A7FB23C00716189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB86FE9E1A7FB23C00716189 /* ex05_median */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB86FE9B1A7FB23C00716189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB86FEC11A7FB2F400716189 /* strlib.c in Sources */,
+				DB86FEBE1A7FB2F400716189 /* Makefile in Sources */,
+				DB86FEBD1A7FB2F400716189 /* graphics.c in Sources */,
+				DB86FEC01A7FB2F400716189 /* simpio.c in Sources */,
+				DB86FEAE1A7FB2E900716189 /* sort.c in Sources */,
+				DB86FEBF1A7FB2F400716189 /* random.c in Sources */,
+				DB86FEA31A7FB23C00716189 /* main.c in Sources */,
+				DB86FEBC1A7FB2F400716189 /* genlib.c in Sources */,
+				DB86FEAB1A7FB25500716189 /* median.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB86FEA41A7FB23C00716189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB86FEA51A7FB23C00716189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB86FEA71A7FB23C00716189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB86FEA81A7FB23C00716189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB86FE9A1A7FB23C00716189 /* Build configuration list for PBXProject "ex05_median" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB86FEA41A7FB23C00716189 /* Debug */,
+				DB86FEA51A7FB23C00716189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB86FEA61A7FB23C00716189 /* Build configuration list for PBXNativeTarget "ex05_median" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB86FEA71A7FB23C00716189 /* Debug */,
+				DB86FEA81A7FB23C00716189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB86FE971A7FB23C00716189 /* Project object */;
+}
