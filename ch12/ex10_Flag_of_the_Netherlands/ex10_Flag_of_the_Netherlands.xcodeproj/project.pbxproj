@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB72BA731A81057E0010C7B2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB72BA721A81057E0010C7B2 /* main.c */; };
+		DB72BA881A8105A00010C7B2 /* genlib.c in Sources */ = {isa = PBXBuildFile; fileRef = DB72BA7A1A8105A00010C7B2 /* genlib.c */; };
+		DB72BA891A8105A00010C7B2 /* graphics.c in Sources */ = {isa = PBXBuildFile; fileRef = DB72BA7C1A8105A00010C7B2 /* graphics.c */; };
+		DB72BA8A1A8105A00010C7B2 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = DB72BA7E1A8105A00010C7B2 /* Makefile */; };
+		DB72BA8B1A8105A00010C7B2 /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = DB72BA7F1A8105A00010C7B2 /* random.c */; };
+		DB72BA8C1A8105A00010C7B2 /* simpio.c in Sources */ = {isa = PBXBuildFile; fileRef = DB72BA821A8105A00010C7B2 /* simpio.c */; };
+		DB72BA8D1A8105A00010C7B2 /* strlib.c in Sources */ = {isa = PBXBuildFile; fileRef = DB72BA841A8105A00010C7B2 /* strlib.c */; };
+		DB72BA8E1A8105A00010C7B2 /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = DB72BA861A8105A00010C7B2 /* sort.c */; };
+		DB72BA911A8105CB0010C7B2 /* sortFlag.c in Sources */ = {isa = PBXBuildFile; fileRef = DB72BA8F1A8105CB0010C7B2 /* sortFlag.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB72BA6D1A81057E0010C7B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB72BA6F1A81057E0010C7B2 /* ex10_Flag_of_the_Netherlands */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex10_Flag_of_the_Netherlands; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB72BA721A81057E0010C7B2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DB72BA7A1A8105A00010C7B2 /* genlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = genlib.c; sourceTree = "<group>"; };
+		DB72BA7B1A8105A00010C7B2 /* genlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genlib.h; sourceTree = "<group>"; };
+		DB72BA7C1A8105A00010C7B2 /* graphics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = graphics.c; sourceTree = "<group>"; };
+		DB72BA7D1A8105A00010C7B2 /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
+		DB72BA7E1A8105A00010C7B2 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DB72BA7F1A8105A00010C7B2 /* random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = random.c; sourceTree = "<group>"; };
+		DB72BA801A8105A00010C7B2 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		DB72BA811A8105A00010C7B2 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DB72BA821A8105A00010C7B2 /* simpio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = simpio.c; sourceTree = "<group>"; };
+		DB72BA831A8105A00010C7B2 /* simpio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpio.h; sourceTree = "<group>"; };
+		DB72BA841A8105A00010C7B2 /* strlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlib.c; sourceTree = "<group>"; };
+		DB72BA851A8105A00010C7B2 /* strlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strlib.h; sourceTree = "<group>"; };
+		DB72BA861A8105A00010C7B2 /* sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
+		DB72BA871A8105A00010C7B2 /* sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
+		DB72BA8F1A8105CB0010C7B2 /* sortFlag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sortFlag.c; sourceTree = "<group>"; };
+		DB72BA901A8105CB0010C7B2 /* sortFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortFlag.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB72BA6C1A81057E0010C7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB72BA661A81057E0010C7B2 = {
+			isa = PBXGroup;
+			children = (
+				DB72BA711A81057E0010C7B2 /* ex10_Flag_of_the_Netherlands */,
+				DB72BA701A81057E0010C7B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB72BA701A81057E0010C7B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB72BA6F1A81057E0010C7B2 /* ex10_Flag_of_the_Netherlands */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB72BA711A81057E0010C7B2 /* ex10_Flag_of_the_Netherlands */ = {
+			isa = PBXGroup;
+			children = (
+				DB72BA721A81057E0010C7B2 /* main.c */,
+				DB72BA791A8105A00010C7B2 /* simplified */,
+				DB72BA861A8105A00010C7B2 /* sort.c */,
+				DB72BA8F1A8105CB0010C7B2 /* sortFlag.c */,
+				DB72BA901A8105CB0010C7B2 /* sortFlag.h */,
+				DB72BA871A8105A00010C7B2 /* sort.h */,
+			);
+			path = ex10_Flag_of_the_Netherlands;
+			sourceTree = "<group>";
+		};
+		DB72BA791A8105A00010C7B2 /* simplified */ = {
+			isa = PBXGroup;
+			children = (
+				DB72BA7A1A8105A00010C7B2 /* genlib.c */,
+				DB72BA7B1A8105A00010C7B2 /* genlib.h */,
+				DB72BA7C1A8105A00010C7B2 /* graphics.c */,
+				DB72BA7D1A8105A00010C7B2 /* graphics.h */,
+				DB72BA7E1A8105A00010C7B2 /* Makefile */,
+				DB72BA7F1A8105A00010C7B2 /* random.c */,
+				DB72BA801A8105A00010C7B2 /* random.h */,
+				DB72BA811A8105A00010C7B2 /* README */,
+				DB72BA821A8105A00010C7B2 /* simpio.c */,
+				DB72BA831A8105A00010C7B2 /* simpio.h */,
+				DB72BA841A8105A00010C7B2 /* strlib.c */,
+				DB72BA851A8105A00010C7B2 /* strlib.h */,
+			);
+			path = simplified;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB72BA6E1A81057E0010C7B2 /* ex10_Flag_of_the_Netherlands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB72BA761A81057E0010C7B2 /* Build configuration list for PBXNativeTarget "ex10_Flag_of_the_Netherlands" */;
+			buildPhases = (
+				DB72BA6B1A81057E0010C7B2 /* Sources */,
+				DB72BA6C1A81057E0010C7B2 /* Frameworks */,
+				DB72BA6D1A81057E0010C7B2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex10_Flag_of_the_Netherlands;
+			productName = ex10_Flag_of_the_Netherlands;
+			productReference = DB72BA6F1A81057E0010C7B2 /* ex10_Flag_of_the_Netherlands */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB72BA671A81057E0010C7B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cirno MainasuK";
+				TargetAttributes = {
+					DB72BA6E1A81057E0010C7B2 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DB72BA6A1A81057E0010C7B2 /* Build configuration list for PBXProject "ex10_Flag_of_the_Netherlands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB72BA661A81057E0010C7B2;
+			productRefGroup = DB72BA701A81057E0010C7B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB72BA6E1A81057E0010C7B2 /* ex10_Flag_of_the_Netherlands */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB72BA6B1A81057E0010C7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB72BA881A8105A00010C7B2 /* genlib.c in Sources */,
+				DB72BA911A8105CB0010C7B2 /* sortFlag.c in Sources */,
+				DB72BA8D1A8105A00010C7B2 /* strlib.c in Sources */,
+				DB72BA891A8105A00010C7B2 /* graphics.c in Sources */,
+				DB72BA8C1A8105A00010C7B2 /* simpio.c in Sources */,
+				DB72BA8A1A8105A00010C7B2 /* Makefile in Sources */,
+				DB72BA8B1A8105A00010C7B2 /* random.c in Sources */,
+				DB72BA731A81057E0010C7B2 /* main.c in Sources */,
+				DB72BA8E1A8105A00010C7B2 /* sort.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB72BA741A81057E0010C7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB72BA751A81057E0010C7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB72BA771A81057E0010C7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB72BA781A81057E0010C7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB72BA6A1A81057E0010C7B2 /* Build configuration list for PBXProject "ex10_Flag_of_the_Netherlands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB72BA741A81057E0010C7B2 /* Debug */,
+				DB72BA751A81057E0010C7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB72BA761A81057E0010C7B2 /* Build configuration list for PBXNativeTarget "ex10_Flag_of_the_Netherlands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB72BA771A81057E0010C7B2 /* Debug */,
+				DB72BA781A81057E0010C7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB72BA671A81057E0010C7B2 /* Project object */;
+}

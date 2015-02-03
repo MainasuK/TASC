@@ -1,0 +1,66 @@
+README file for the simplified subdirectory
+Last modified on Thu Oct 20 00:01:22 1994 by eroberts
+________________________________________________________________________
+
+The simplified directory contains a simplified version of the cslib
+library, as it appears in Appendix B of "The Art and Science of C: A
+Library-Based Approach" (Addison-Wesley, 1995).
+
+As in the standard library package, the graphics library provided in
+this directory is a machine-independent implementation that writes a
+data file called graphics.ps that can then be sent to a PostScript
+printer.  If you want to draw actual figures on the screen, you need a
+version of graphics.c that has been tailored for use with your specific
+system.  Several implementations of graphics.c are included in other
+subdirectories (unix-xwindows, mac-think-c, and pc-borland) of the cslib
+directory.
+
+The cslib/standard directory includes a more complete version of
+graphics.c that provides more powerful facilities, which you should try
+to use if possible.  The simplified libraries, however, are sufficient
+for all examples used in the text.
+
+INSTALLING THE SIMPLIFIED LIBRARIES
+
+First of all, make sure that the simplified version of the libraries is
+the one you want to install.  If you are using one of the platforms for
+which the full cslib library package is implemented (XWindows on Unix,
+Borland C/C++ on the IBM PC, or THINK C or Symantec C++ on the
+Macintosh), you should be installing the version designed for that
+system.  The cslib libraries produced by those packages are not only
+more powerful but also easier to install.  Even if you are not using one
+of these systems, you should try to install the standard version before
+falling resorting to the simplified one.  For details on deciding what
+version to install, see the README file in the Roberts.CS1.C directory.
+
+The steps required to install the simplified library package depend very
+much on what type of computer system and C compiler you have.  The
+general steps, however, are as follows:
+
+1.  Use FTP to copy all the files in the simplified directory to a new
+    working directory on your machine.
+
+2.  Copy the .h files from this directory into the standard #include
+    path used by your compiler.
+
+3.  Compile each of the source files (genlib.c, graphics.c, random.c,
+    simpio.c, and strlib.c) to produce the corresponding object file.
+
+4.  Combine the object files together to produce a library file.  The
+    steps required to do so vary substantially from system to system,
+    and you should consult the documentation for your compiler before
+    proceeding.
+
+5.  If you are installing this package on a shared machine, copy the
+    library into some public directory where students can easily gain
+    access to it.
+
+NOTES AND DISCLAIMERS
+
+The cslib libraries are in the public domain and may be freely copied
+and distributed, although they remain under development.  No warranties
+are made concerning their correctness or stability, and no user support
+is guaranteed.  Bug reports and suggestions, however, are appreciated
+and may be sent to
+
+                      Eric Roberts <ericr@aw.com>
