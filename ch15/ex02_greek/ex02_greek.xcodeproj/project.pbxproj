@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB57D9131A88B931006F0FBA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB57D9121A88B931006F0FBA /* main.c */; };
+		DB57D91B1A88B957006F0FBA /* greek.c in Sources */ = {isa = PBXBuildFile; fileRef = DB57D9191A88B957006F0FBA /* greek.c */; };
+		DB57D91E1A88BBCC006F0FBA /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = DB57D91C1A88BBCC006F0FBA /* random.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB57D90D1A88B931006F0FBA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB57D90F1A88B931006F0FBA /* ex02_greek */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex02_greek; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB57D9121A88B931006F0FBA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DB57D9191A88B957006F0FBA /* greek.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = greek.c; sourceTree = "<group>"; };
+		DB57D91A1A88B957006F0FBA /* greek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = greek.h; sourceTree = "<group>"; };
+		DB57D91C1A88BBCC006F0FBA /* random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = random.c; sourceTree = "<group>"; };
+		DB57D91D1A88BBCC006F0FBA /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB57D90C1A88B931006F0FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB57D9061A88B931006F0FBA = {
+			isa = PBXGroup;
+			children = (
+				DB57D9111A88B931006F0FBA /* ex02_greek */,
+				DB57D9101A88B931006F0FBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB57D9101A88B931006F0FBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB57D90F1A88B931006F0FBA /* ex02_greek */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB57D9111A88B931006F0FBA /* ex02_greek */ = {
+			isa = PBXGroup;
+			children = (
+				DB57D9121A88B931006F0FBA /* main.c */,
+				DB57D9191A88B957006F0FBA /* greek.c */,
+				DB57D91C1A88BBCC006F0FBA /* random.c */,
+				DB57D91D1A88BBCC006F0FBA /* random.h */,
+				DB57D91A1A88B957006F0FBA /* greek.h */,
+			);
+			path = ex02_greek;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB57D90E1A88B931006F0FBA /* ex02_greek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB57D9161A88B931006F0FBA /* Build configuration list for PBXNativeTarget "ex02_greek" */;
+			buildPhases = (
+				DB57D90B1A88B931006F0FBA /* Sources */,
+				DB57D90C1A88B931006F0FBA /* Frameworks */,
+				DB57D90D1A88B931006F0FBA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex02_greek;
+			productName = ex02_greek;
+			productReference = DB57D90F1A88B931006F0FBA /* ex02_greek */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB57D9071A88B931006F0FBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cirno MainasuK";
+				TargetAttributes = {
+					DB57D90E1A88B931006F0FBA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DB57D90A1A88B931006F0FBA /* Build configuration list for PBXProject "ex02_greek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB57D9061A88B931006F0FBA;
+			productRefGroup = DB57D9101A88B931006F0FBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB57D90E1A88B931006F0FBA /* ex02_greek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB57D90B1A88B931006F0FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB57D91B1A88B957006F0FBA /* greek.c in Sources */,
+				DB57D91E1A88BBCC006F0FBA /* random.c in Sources */,
+				DB57D9131A88B931006F0FBA /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB57D9141A88B931006F0FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB57D9151A88B931006F0FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB57D9171A88B931006F0FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB57D9181A88B931006F0FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB57D90A1A88B931006F0FBA /* Build configuration list for PBXProject "ex02_greek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB57D9141A88B931006F0FBA /* Debug */,
+				DB57D9151A88B931006F0FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB57D9161A88B931006F0FBA /* Build configuration list for PBXNativeTarget "ex02_greek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB57D9171A88B931006F0FBA /* Debug */,
+				DB57D9181A88B931006F0FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB57D9071A88B931006F0FBA /* Project object */;
+}
